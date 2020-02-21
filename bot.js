@@ -24,3 +24,5 @@ Client.on('message', (message)=>{
     if(message.content.startsWith(prefix + "apply"))
         message.author.send("Hello! Applications are currently closed! Sorry!")
 })
+
+Client.login('proccess.env.token');
