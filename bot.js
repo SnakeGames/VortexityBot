@@ -1,6 +1,5 @@
 const Discord = require("discord.js")
 const Client  = new Discord.Client();
-const prefix = "-"
 
 Client.login('NjgwMzA2NTk2ODUyNzkzMzU1.Xk9_Dw.0_jVLJN6G2Si1Cd9UIie3MSeBmo');
 
