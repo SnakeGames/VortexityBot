@@ -1,17 +1,12 @@
 const Discord = require("discord.js")
-const bot = new Discord.Client();
+const Client = new Discord.Client();
 const prefix = "-"
 
-const token ='NjgwMzA2NTk2ODUyNzkzMzU1.Xk9_Dw.0_jVLJN6G2Si1Cd9UIie3MSeBmo';
-
-
-
-
-bot.on('ready', ()=>{
+Client.on('ready', ()=>{
     console.log("The bot has been logged in!")
 })
 
-bot.on('message', (message)=>{
+Client.on('message', (message)=>{
     if(-message.content.startsWith.apply(prefix)) return;
     if(message.author.bot) return;
 
@@ -28,4 +23,4 @@ bot.on('message', (message)=>{
         message.author.send("Hello! Applications are currently closed! Sorry!")
 })
 
-bot.login(process.env.token);
+Client.login('NjgwMTYxNTg4MjA4MzM2OTA0.Xk-N5A.AFxeTrnBmUMw5LQmnaVFPtQRG-o');
