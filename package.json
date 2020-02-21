@@ -1,14 +1,20 @@
 {
-  "name": "ytbot",
+  "name": "Vortexitybot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "npm start index.js"
+    "start": "node bot.js"
   },
-  "author": "SnakeGames",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnakeGames/VortexityBot.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.5.1"
-  }
+  "bugs": {
+    "url": "https://github.com/SnakeGames/VortexityBot/issues"
+  },
+  "homepage": "https://github.com/SnakeGames/VortexityBot#readme"
 }
