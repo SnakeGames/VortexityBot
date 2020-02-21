@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SnakeGames/VortexityBot/issues"
   },
-  "homepage": "https://github.com/SnakeGames/VortexityBot#readme"
+  "homepage": "https://github.com/SnakeGames/VortexityBot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
 }
