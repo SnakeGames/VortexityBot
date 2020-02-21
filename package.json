@@ -2,9 +2,9 @@
   "name": "Vortexitybot",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "Vortexitybot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node Vortexitybot.js"
   },
   "repository": {
     "type": "git",
