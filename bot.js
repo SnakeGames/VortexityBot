@@ -2,6 +2,8 @@ const Discord = require("discord.js")
 const Client  = new Discord.Client();
 const prefix = "-"
 
+Client.login('NjgwMzA2NTk2ODUyNzkzMzU1.Xk9_Dw.0_jVLJN6G2Si1Cd9UIie3MSeBmo');
+
 Client.on('ready', ()=>{
     console.log("The bot has been logged in!")
 })
@@ -22,5 +24,3 @@ Client.on('message', (message)=>{
     if(message.content.startsWith(prefix + "apply"))
         message.author.send("Hello! Applications are currently closed! Sorry!")
 })
-
-Client.login('NjgwMzA2NTk2ODUyNzkzMzU1.Xk9_Dw.0_jVLJN6G2Si1Cd9UIie3MSeBmo')
