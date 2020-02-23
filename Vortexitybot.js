@@ -21,6 +21,9 @@ Client.on('message', (message)=>{
 
     if(message.content.startsWith(prefix + "apply"))
         message.author.send("Hello! Applications are currently closed! Sorry!")
+    
+    if(message.content.startsWith(prefix + "website"))
+        message.reply("Hello! The website is currently in development, when its done there will be an announcement!")
 })
 
 Client.login(process.env.token);
