@@ -16,7 +16,7 @@ Client.on('message', (message)=>{
 
 
     if(message.content.startsWith(prefix + "help"))
-        message.author.send("The commands are (CHANGE THIS)");
+        message.author.send("The commands are ```-ip -apply```");
 
 
     if(message.content.startsWith(prefix + "apply"))
