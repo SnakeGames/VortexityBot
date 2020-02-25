@@ -1,4 +1,4 @@
-const Discord = require("discord.js")
+const Discord = require("discord.js");
 const Client = new Discord.Client();
 const prefix = "-"
 
@@ -23,4 +23,4 @@ Client.on('message', (message)=>{
         message.author.send("Hello! Applications are currently closed! Sorry!")
 })
 
-Client.login('NjgwMTYxNTg4MjA4MzM2OTA0.Xk-N5A.AFxeTrnBmUMw5LQmnaVFPtQRG-o');
+Client.login(process.env.token);
