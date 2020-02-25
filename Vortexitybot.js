@@ -10,16 +10,6 @@ Client.on('message', (message)=>{
     if(-message.content.startsWith.apply(prefix)) return;
     if(message.author.bot) return;
 
-       let args = meessage.content.substring(prefix.legnth).split(" ")
-
-       switch(args[0]){
-           case 'help':
-                const help = new Discord.RichEmbed()
-                .addField('Player Information', msg.author.username)
-                message.channel.sendEmbed(embed);
-          break;
-       }
-
 
     if(message.content.startsWith(prefix + "ip"))
         message.reply("Currently, there is no ip! We are working on the server!");
