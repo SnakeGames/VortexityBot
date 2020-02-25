@@ -10,12 +10,12 @@ Client.on('message', (message)=>{
     if(-message.content.startsWith.apply(prefix)) return;
     if(message.author.bot) return;
 
-       let args = meessage.content.substring(prefix.legnth).split(" ")
+    let args = message.content.substring(prefix.legnth).split(" ")
 
        switch(args[0]){
            case 'help':
                 const embed = new Discord.RichEmbed()
-                .addField('Player Information', msg.author.username)
+                .addField('Player Information', message.author.username)
                 message.channel.sendEmbed(embed);
           break;
        }
