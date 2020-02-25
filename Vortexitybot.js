@@ -14,7 +14,7 @@ Client.on('message', (message)=>{
 
        switch(args[0]){
            case 'help':
-                const help = new Discord.RichEmbed()
+                const embed = new Discord.RichEmbed()
                 .addField('Player Information', msg.author.username)
                 message.channel.sendEmbed(embed);
           break;
